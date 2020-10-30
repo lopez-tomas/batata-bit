@@ -46,7 +46,7 @@ header img {
   margin-top: 60px;
   align-self: center;
 }
-.header--title-container {
+.header__title-container {
   width: 90%;
   min-width: 288px;
   max-width: 900px;
@@ -55,20 +55,20 @@ header img {
   text-align: center;
   align-self: center;
 }
-.header--title-container h1 {
+.header__title-container h1 {
   font-size: 2.4rem;
   font-weight: bold;
   line-height: 2.6rem;
   color: var(--just-white);
 }
-.header--title-container p {
+.header__title-container p {
   margin-top: 25px;
   font-size: 1.4rem;
   font-weight: 500;
   line-height: 1.8rem;
   color: var(--soft-orange);
 }
-.header--title-container .header--button {
+.header__title-container .header__button {
   position: absolute;
   left: calc(50% - 114.5px);
   top: 270px;
@@ -86,7 +86,7 @@ header img {
   text-decoration: none;
   color: var(--warm-black);
 }
-.header--button span {
+.header__button span {
   display: inline-block;
   width: 13px;
   height: 8px;

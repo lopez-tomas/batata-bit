@@ -1,4 +1,4 @@
-/* 
+/*
     1. Posicionamiento --> static, absolute, relative, fixed
     2. Modelo de caja (Box model) --> margin, padding, widht/height
     3. Tipografía --> fuentes, tamaño de fuentes, etc.
@@ -28,6 +28,7 @@
 html {
   font-size: 62.5%;
   font-family: var(--primary-font);
+  scroll-behavior: smooth;
 }
 
 header {

@@ -332,6 +332,8 @@ td.table__right {
   min-width: 320px;
   padding-bottom: 70px;
   text-align: center;
+  /* background-color: #eeecec; */
+  background-color: #e5e5e5;
 }
 .services-plans__title {
   width: 90%;
@@ -375,11 +377,16 @@ td.table__right {
   left: calc(50% - 50.5px);
   font-family: var(--secondary-font);
   font-size: 1.2rem;
-  font-weight: normal;
+  font-weight: bold;
   line-height: 1.5rem;
-  background-color: var(--bitcoin-orange);
   border-radius: 8px;
   color: var(--just-white);
+}
+.orange {
+  background-color: var(--bitcoin-orange);
+}
+.basic {
+  background-color: var(--secondary-blue);
 }
 .card__info .card__info--title {
   padding: 31px 0 5px 0;
@@ -412,4 +419,23 @@ td.table__right {
   font-weight: 500;
   line-height: 1.452rem;
   color: #757575;
+}
+/* Ilimited card */
+.ilimited-text {
+  background-color: var(--grey);
+  color: black;
+}
+.ilimited-container {
+  background-color: var(--warm-black);
+}
+.ilimited-info .ilimited-info__title, .ilimited-info__price {
+  color: var(--just-white);
+}
+.ilimited-info .ilimited-info__price span {
+  left: calc(50% - 65px);
+  color: var(--grey);
+}
+.ilimited-info__saving {
+}
+.ilimited-info__button {
 }

@@ -11,6 +11,7 @@
   --soft-orange: #ffe9d5;
   --secondary-blue: #1a9af7;
   --soft-blue: #e7f5ff;
+  --golden: #efb810;
   --warm-black: #201e1c;
   --black: #282623;
   --grey: #bababa;
@@ -332,7 +333,6 @@ td.table__right {
   min-width: 320px;
   padding-bottom: 70px;
   text-align: center;
-  /* background-color: #eeecec; */
   background-color: #e5e5e5;
 }
 .services-plans__title {
@@ -362,6 +362,7 @@ td.table__right {
   min-width: 190px;
   max-width: 300px;
   height: 247px;
+  max-height: 390px;
   margin: 50px auto 0;
   padding: 0 15px;
   background-color: var(--just-white);
@@ -420,22 +421,45 @@ td.table__right {
   line-height: 1.452rem;
   color: #757575;
 }
+.card__info .card__info--ca {
+  width: 151px;
+  height: 48px;
+  margin-top: 16px;
+  background-color: var(--off-white);
+  border: 2px solid var(--bitcoin-orange);
+  border-radius: 4px;
+  font-family: var(--primary-font);
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+  color: var(--warm-black);
+  cursor: pointer;
+}
+.card__info .card__info--ca span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url('./assets/icons/orange-right-arrow.svg');
+  vertical-align: text-bottom;
+}
+
 /* Ilimited card */
 .ilimited-text {
-  background-color: var(--grey);
-  color: black;
+  background-color: var(--black);
+  color: var(--golden);
 }
 .ilimited-container {
   background-color: var(--warm-black);
 }
 .ilimited-info .ilimited-info__title, .ilimited-info__price {
-  color: var(--just-white);
+  color: var(--golden);
 }
 .ilimited-info .ilimited-info__price span {
   left: calc(50% - 65px);
-  color: var(--grey);
+  color: #e6cd82;
 }
-.ilimited-info__saving {
-}
-.ilimited-info__button {
+.ilimited-info .ilimited-info__button {
+  background-color: var(--black);
+  color: var(--just-white);
+  border-color: var(--golden);
 }

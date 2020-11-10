@@ -329,11 +329,17 @@ td.table__right {
 }
 
 .services-plans {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
-  min-width: 320px;
+  min-height: 320px;
   padding-bottom: 70px;
   text-align: center;
   background-color: #e5e5e5;
+}
+.services-plans .services-plans__container {
+  text-align: center;
 }
 .services-plans__title {
   width: 90%;
@@ -356,14 +362,25 @@ td.table__right {
   line-height: 1.8rem;
   color: #757575;
 }
+.services-plans__container {
+  display: flex;
+  /* gap: 50px; Aún no está soportado por todos los navegadores*/
+  height: 316px;
+  max-width: 500px;
+  width: 100%;
+  overflow-x: scroll;
+  scroll-snap-type: x proximity;
+  overscroll-behavior-x: contain;
+}
 .services-plans__container--card {
   position: relative;
+  scroll-snap-align: center;
   width: 70%;
   min-width: 190px;
   max-width: 300px;
   height: 247px;
   max-height: 390px;
-  margin: 50px auto 0;
+  margin: 50px 30px 0;
   padding: 0 15px;
   background-color: var(--just-white);
   border-radius: 8px;
@@ -373,6 +390,7 @@ td.table__right {
   position: absolute;
   width: 101px;
   height: 31px;
+  margin: 0;
   padding: 8px;
   top: calc(0% - 15.5px);
   left: calc(50% - 50.5px);

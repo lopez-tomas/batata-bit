@@ -1,0 +1,15 @@
+.currency {
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+}
+.benefit-container__product {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin: 0 auto;
+}
+.services-plans__container {
+    overflow-x: hidden;
+    justify-content: center;
+}

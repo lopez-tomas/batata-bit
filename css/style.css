@@ -98,7 +98,7 @@ header img {
   width: 13px;
   height: 8px;
   margin-left: 14px;
-  background-image: url("./assets/icons/down-arrow.svg");
+  background-image: url("../assets/icons/down-arrow.svg");
 }
 
 main {
@@ -118,7 +118,7 @@ main {
   height: 200px;
   margin: 0 auto;
   margin-bottom: 40px;
-  background-image: url(./assets/images/bitcoin.svg);
+  background-image: url(../assets/images/bitcoin.svg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -199,10 +199,10 @@ main {
   background-repeat: no-repeat;
 }
 .currency__table--container .down {
-  background-image: url("./assets/icons/trending-down.svg");
+  background-image: url("../assets/icons/trending-down.svg");
 }
 .currency__table--container .up {
-  background-image: url("./assets/icons/trending-up.svg");
+  background-image: url("../assets/icons/trending-up.svg");
 }
 .currency__table--date,
 .comission__table--date {
@@ -258,7 +258,7 @@ td.table__right {
   height: 25px;
   top: calc(0% - 12.5px);
   left: calc(50% - 20px);
-  background-image: url("./assets/icons/batata.svg");
+  background-image: url("../assets/icons/batata.svg");
 }
 .benefit-container__title {
   width: 90%;
@@ -303,16 +303,16 @@ td.table__right {
   background-repeat: no-repeat;
 }
 .clock {
-  background-image: url("./assets/icons/clock.svg");
+  background-image: url("../assets/icons/clock.svg");
 }
 .eye {
-  background-image: url("./assets/icons/eye.svg");
+  background-image: url("../assets/icons/eye.svg");
 }
 .dollar {
-  background-image: url("./assets/icons/dollar-sign.svg");
+  background-image: url("../assets/icons/dollar-sign.svg");
 }
 .check {
-  background-image: url("./assets/icons/check-circle.svg");
+  background-image: url("../assets/icons/check-circle.svg");
 }
 .benefit-container__product--card .product--card__title {
   margin-bottom: 15px;
@@ -332,7 +332,7 @@ td.table__right {
   width: 100%;
   min-width: 320px;
   height: 80vh;
-  background-image: url(./assets/images/bitcoin-baby.jpg);
+  background-image: url(../assets/images/bitcoin-baby.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -347,9 +347,6 @@ td.table__right {
 }
 
 .services-plans {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   width: 100%;
   min-height: 320px;
   padding-bottom: 70px;
@@ -380,12 +377,10 @@ td.table__right {
   line-height: 1.8rem;
   color: #757575;
 }
-.services-plans__container {
+.services-plans__container { /* Slider */
   display: flex;
   /* gap: 50px; Aún no está soportado por todos los navegadores*/
   height: 316px;
-  max-width: 500px;
-  width: 100%;
   overflow-x: scroll;
   scroll-snap-type: x proximity;
   overscroll-behavior-x: contain;
@@ -475,7 +470,7 @@ td.table__right {
   display: inline-block;
   width: 20px;
   height: 20px;
-  background-image: url('./assets/icons/orange-right-arrow.svg');
+  background-image: url('../assets/icons/orange-right-arrow.svg');
   vertical-align: text-bottom;
 }
 
